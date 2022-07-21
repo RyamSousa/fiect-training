@@ -53,14 +53,15 @@ Import-Package: javax.annotation;version=0.0.0,*
                 <artifactId>bnd-baseline-maven-plugin</artifactId>
                 <configuration>
                     <failOnMissing>false</failOnMissing>
+                    <skip>true</skip>
                 </configuration>
                 <executions>
-                    <execution>
+                    <!-- <execution>
                         <id>baseline</id>
                         <goals>
                             <goal>baseline</goal>
                         </goals>
-                    </execution>
+                    </execution> -->
                 </executions>
             </plugin>
             <plugin>
