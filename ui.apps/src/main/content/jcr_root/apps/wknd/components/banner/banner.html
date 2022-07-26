@@ -1,0 +1,12 @@
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html">
+	<sly data-sly-call="${clientlib.css @ categories='wknd.training-fiec'}"></sly>
+</sly>
+
+<div
+	class="banner-container"
+	data-sly-use.banner="com.adobe.aem.guides.wknd.core.models.fiectraining.BannerModel"
+>
+	<sly data-sly-use.templateBanner="banner-template.html">
+		<sly data-sly-call="${templateBanner.bannerTemplate @ bannerContent=banner}"></sly>
+	</sly>
+</div>
