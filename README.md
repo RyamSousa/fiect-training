@@ -28,6 +28,3 @@ Setup your local development environment for [AEM as a Cloud Service SDK](https:
 # Tutorial
 
 A corresponding [tutorial is available](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) where you can learn how to implement a website using the latest standards and technologies in AEM Sites.
-
-## Banner component
-...
